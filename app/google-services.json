@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "877999851962",
+    "firebase_url": "https://vitapat-20d50.firebaseio.com",
+    "project_id": "vitapat-20d50",
+    "storage_bucket": "vitapat-20d50.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:877999851962:android:4a005a11d583e5f9",
+        "android_client_info": {
+          "package_name": "com.example.a21732599.pruebas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "877999851962-f1kilfifugd2tc5hssrikgo339nrftli.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.a21732599.pruebas",
+            "certificate_hash": "647f4e0c3cebc1e5fb83a4f70cb64679f78e3944"
+          }
+        },
+        {
+          "client_id": "877999851962-8bsh12ljeku0uh4nfldovv4lc9at9d8a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHx1xfpAfno-VeGDkWPvDDsNJyiO2ODbw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "877999851962-8bsh12ljeku0uh4nfldovv4lc9at9d8a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

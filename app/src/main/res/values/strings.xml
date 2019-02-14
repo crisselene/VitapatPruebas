@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Vitapat</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Contraseña</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="btnentrar">ENTRAR</string>
+    <string name="btncuenta">Crear cuenta</string>
+    <string name="olvidadocontra">AYUDA</string>
+    <string name="btnayuda">Ayuda</string>
+    <string name="text_subrayado"><u>Ayuda</u></string>
+    <string name="vitapat">Vitapat</string>
+    <string name="tv_slogan">Cuidando nuestro planeta</string>
+    <string name="msj_registrado">Accediendo...</string>
+    <string name="msj_no_registrado">El usuario no está registrado en el sistema</string>
+    <string name="msj_logado">Accediendo...</string>
+    <string name="msj_no_accede">El usuario no está registrado en el sistema</string>
+    <string name="msj_no_data">Debe introducir el email y la contraseña</string>
+    <string name="et_usuario">Nombre de usuario</string>
+    <string name="et_email" />
+    <string name="et_correoo">Correo electrónico</string>
+    <string name="et_Contraseña">Contraseña</string>
+    <string name="et_Confirmar">Confirmar contraseña</string>
+    <string name="btnRegistrar">Registrar</string>
+    <string name="btn_atras">ATRÁS</string>
+
+</resources>

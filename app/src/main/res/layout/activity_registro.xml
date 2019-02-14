@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/atardecercorto"
+    tools:context=".RegistroActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="84dp"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/imageView"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="151dp"
+        android:layout_marginEnd="-7dp"
+        android:gravity="center_horizontal"
+        android:text="@string/vitapat"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/etUsuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/btnVacio"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="252dp"
+        android:background="@drawable/datos_relleno"
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:hint="@string/et_usuario"
+        android:inputType="textPersonName"
+        android:lineSpacingExtra="5sp"
+        android:textColor="@android:color/background_light"
+        android:textColorHint="#96ffffff" />
+
+    <EditText
+        android:id="@+id/etEmail"
+        style="@style/Widget.AppCompat.Light.AutoCompleteTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/etUsuario"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="295dp"
+        android:background="@drawable/datos_relleno"
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:hint="@string/et_correoo"
+        android:inputType="textPersonName"
+        android:lineSpacingExtra="5sp"
+        android:textColor="@android:color/background_light"
+        android:textColorHint="#96ffffff" />
+
+    <EditText
+        android:id="@+id/etContraseña"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/etUsuario"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="337dp"
+        android:background="@drawable/datos_relleno"
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:hint="@string/et_Contraseña"
+        android:inputType="textPassword"
+        android:lineSpacingExtra="5sp"
+        android:textColor="@android:color/background_light"
+        android:textColorHint="#96ffffff" />
+
+    <EditText
+        android:id="@+id/etContraseña2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/etUsuario"
+        android:layout_alignEnd="@+id/btnVacio"
+        android:layout_alignRight="@+id/btnVacio"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="387dp"
+        android:layout_marginEnd="-11dp"
+        android:layout_marginRight="-11dp"
+        android:background="@drawable/datos_relleno"
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:hint="@string/et_Confirmar"
+        android:inputType="textPassword"
+        android:lineSpacingExtra="5sp"
+        android:textColor="@android:color/background_light"
+        android:textColorHint="#96ffffff" />
+
+    <Button
+        android:id="@+id/btnVacio"
+        android:layout_width="250dp"
+        android:layout_height="35dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="184dp"
+        android:background="@drawable/boton_entrar"
+        android:onClick="registrar"
+        android:text="@string/btnRegistrar"
+        android:textColor="@android:color/background_light" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="87dp"
+        android:layout_toStartOf="@+id/imageView"
+        app:srcCompat="@drawable/googlebutton" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignTop="@+id/imageView2"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="-1dp"
+        android:layout_marginEnd="105dp"
+        android:layout_marginRight="105dp"
+        app:srcCompat="@drawable/buttonfacebook" />
+
+</RelativeLayout>
